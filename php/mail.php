@@ -26,13 +26,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Emails sent successfully
         echo "<script>
                 alert('Message sent successfully!');
-                window.location.href = 'https://digitalcyber-alex.liceultehnologicconstantinbrancusi.eu/index.html';
+                window.location.href = 'https://alexalexandru20.github.io/alex.github.io/';
             </script>";
     } else {
         // Email sending failed
         echo "<script>
                 alert('Message not sent. Please try again.');
-                window.location.href = 'https://digitalcyber-alex.liceultehnologicconstantinbrancusi.eu/contact.html';
+                window.location.href = 'https://alexalexandru20.github.io/alex.github.io/contact';
             </script>";
     }
     exit();
