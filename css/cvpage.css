@@ -1,0 +1,290 @@
+:root{
+    --hover: rgb(74, 53, 236);
+    --shd: -11.31px 11.31px 17px 0px rgba(138,131,124,0.23);
+    --bg-theme: rgb(230,218,206);
+    --bg-box: rgb(244,236,230);
+    --comic: 'Comic Sans MS';
+    --kanit: 'Kanit', sans-serif;
+    --trans1: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+    --trans2: color .4s ease 0s;
+}
+.middle_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15dvh;
+    background-color: var(--bg-theme);
+}
+.titlu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 15dvh 0 5dvh;
+}
+.text-titlu{
+    font-size: 32px;
+    font-family: var(--comic);
+    font-weight: bold;
+    padding: 0 10px;
+}
+.square:not(.header .first-title .square-name .square){
+    margin: 0;
+}
+.subtitlu{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    position: relative;
+    margin-top: 5dvh;
+}
+.text-sub{
+    font-family: var(--comic);
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    left: 5dvw;
+}
+.button-sub{
+    position: absolute;
+    right: 5dvw;
+}
+.buttons .cv-button{
+    width: 150px;
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+.buttons .cv-button:hover{
+    background-color: var(--bg-theme);
+}
+.content-box{
+    margin-top: 5dvh;
+    width: 55%;
+}
+.box:not(.more){
+    background-color: #fff;
+    padding: 150px;
+    margin: 50px;
+    box-shadow: var(--shd, --shd);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    height: 50dvh;
+}
+.left{
+    position: absolute;
+    left: 3dvw;
+    width: 40%;
+    height: 100%;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    position: absolute;
+    right: 3dvw;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--kanit);
+    font-size: 16px;
+    word-spacing: 5px;
+    text-align: justify;
+    text-indent: 15px;
+}
+.year{
+    font-size: 22px;
+    color: var(--hover);
+    font-family: var(--comic);
+    margin-top: 5dvh;
+    padding: 20px;
+    font-weight: bold;
+}
+.position, .job-name{
+    font-family: var(--kanit);
+    font-size: 16px;
+    padding: 10px;
+}
+.position{
+    font-weight: bold;
+}
+.more{
+    background-color: #fff;
+    padding: 150px;
+    margin: 50px;
+    margin-bottom: 200px;
+    box-shadow: var(--shd, --shd);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 60dvh;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+}
+.titlu-more{
+    position: absolute;
+    left: 2dvw;
+    top: 7dvh;
+}
+.text-more{
+    font-family: var(--comic);
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--hover);
+}
+.top table{
+    position: absolute;
+    top: 13dvh;
+    left: 5dvw;
+}
+.bottom table{
+    position: absolute;
+    top: 70%;
+    width: 90%;
+    left: 0;
+}
+th{
+    padding: 15px;
+    font-family: var(--kanit);
+}
+.titlu2-more{
+    position: absolute;
+    left: 2dvw;
+    top: 60%;
+}
+
+@media only screen and (max-width: 430px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .middle_box{
+        width: 100%;
+        height: 100%;
+    }
+    .titlu{
+        margin: 10dvh 0 3dvh;
+    }
+    .text-titlu{
+        font-size: 28px;
+        padding: 0 10px;
+    }
+    .subtitlu{
+        width: 100%;
+        position: relative;
+        margin-top: 5dvh;
+    }
+    .text-sub{
+        font-size: 24px;
+        position: absolute;
+        left: 5dvw;
+    }
+    .button-sub{
+        position: absolute;
+        right: 5dvw;
+    }
+    .buttons .cv-button{
+        margin: 0;
+    }
+    .content-box{
+        width: 100%;
+    }
+    .box:not(.more){
+        background-color: #fff;
+        padding: 150px;
+        margin: 50px 5%;
+        box-shadow: var(--shd, 0 1px 4px rgba(0,0,0,.6));
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        width: 90%;
+        height: 65dvh;
+    }
+    .left{
+        position: absolute;
+        left: 1dvw;
+        top: 0;
+        width: 100%;
+        height: 20dvh;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .right{
+        position: absolute;
+        right: 0;
+        left: 1dvw;
+        top: 23dvh;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--kanit);
+        font-size: 16px;
+        word-spacing: 5px;
+        text-align: justify;
+        text-indent: 15px;
+        padding: 15px;
+    }
+    .year{
+        font-size: 20px;
+        color: var(--hover);
+        font-family: var(--comic);
+        margin-top: 3dvh;
+        padding: 10px;
+        font-weight: bold;
+    }
+    .position, .job-name{
+        font-family: var(--kanit);
+        font-size: 14px;
+        padding: 5px;
+    }
+    .more{
+        margin: 50px 5% 150px;
+        width: 90%;
+        height: 60dvh;
+    }
+    .titlu-more{
+        position: absolute;
+        left: 2dvw;
+        top: 2dvh;
+    }
+    .text-more{
+        font-family: var(--comic);
+        font-size: 20px;
+        font-weight: bold;
+        color: var(--hover);
+    }
+    .top table{
+        position: absolute;
+        width: 90%;
+        top: 5dvh;
+        left: 5%;
+    }
+    .bottom table{
+        position: absolute;
+        top: 80%;
+        width: 90%;
+    }
+    th{
+        padding: 15px;
+        font-family: var(--kanit);
+    }
+    .titlu2-more{
+        position: absolute;
+        left: 2dvw;
+        top: 70%;
+    }
+}
