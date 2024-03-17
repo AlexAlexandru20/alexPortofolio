@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background-color: rgb(209, 144, 213);
+  }
+  ::-webkit-scrollbar{
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track{
+    background-color: rgb(206, 197, 197);
+    box-shadow: inset 0 0 5px rgb(109, 105, 105);
+  }
+  ::-webkit-scrollbar-thumb{
+    display: block;
+    cursor: pointer;
+    background-color: #5f5d5d;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: ease-in-out 2s;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    display: block;
+    cursor: pointer;
+    background-color: #282626;
+    transition: ease-in-out 2s;
+  }
+  @keyframes nav-load{
+    0%{
+        transform: translateY(-100%);
+    }
+  
+    100%{
+        transform: translateY(0);
+    }
+  }
+  .header{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .back{
+    font-size: 20px;
+    position: absolute;
+    left: 2%;
+    top: 20px;
+  }
+  .back a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .back a:hover{
+    color: indigo;
+    text-decoration: underline;
+  }
+  .initiale{
+    position: absolute;
+    font-size: 30px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 1vh;
+  }
+  .surprise{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+  }
+  .card{
+    position: relative;
+    width: 230px;
+    height: 280px;
+    background-color: #fff;
+    box-shadow: 0 5px 5px -2px black;
+    border-radius: 10px;
+  }
+  .anul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+  }
+  .semn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+  }
+  .semn p{
+    font-size: 200px;
+    font-weight: 500;
+    text-shadow: 2px 2px 5px grey;
+  }
+  .middle-content{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 15vh 0;
+  }
+  .liceu{
+    float: left;
+    width: 50%;
+    height: 500px;
+    margin-bottom: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .prof{
+    width: 50%;
+    float: right;
+    position: relative;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .prof::before{
+    content: '';
+    position: absolute;
+    width: 5px;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .titlu{
+    margin: -10% 0 5vh;
+  }
+  .titlu h1{
+    font-size: 25px;
+  }
+  .tabla{
+    background-color: #fff;
+    height: 380px;
+    width: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px -2px black;
+    overflow-y: hidden;
+    margin-right: -5px;
+    border-radius: 20px;
+  }
+  .tabla:hover{
+    overflow-y: scroll;
+  }
+  .tabla::-webkit-scrollbar{
+    width: 5px;
+    height: 350px;
+  }
+  .tabla::-webkit-scrollbar-track{
+    margin: 60px 0;
+  }
+  .sectiune-ani{
+    margin: 20px 10px;
+  }
+  .continut{
+    display: flex;
+    flex-direction: row;
+  }
+  .detalii{
+    text-indent: 20px;
+    text-align: justify;
+    padding: 10px 5% 10px 0;
+  }
+  .sectiune-poza{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15%;
+  }
+  .poza{
+    width: 100px;
+    height: 100px;
+  }
+
+  .poza img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid black;
+  }
+  .final{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .felicitari{
+    width: 90%;
+    height: 170px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0 -3px 5px black;
+  }
+  .imagine-1, .imagine-2{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imagine-1 img, .imagine-2 img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  .text{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+@media only screen and (max-width: 430px){
+  .back{
+    font-size: 18px;
+    top: 10px;
+  }
+  .initiale{
+    font-size: 22px;
+    font-weight: 800;
+  }
+  .card{
+    position: relative;
+    width: 180px;
+    height: 240px;
+  }
+  .liceu{
+    width: 100%;
+  }
+  .prof{
+    width: 100%;
+  }
+  .prof::before{
+    content: '';
+    display: none;
+  }
+  .tabla{
+    overflow-y: scroll;
+  }
+  .tabla::-webkit-scrollbar{
+    display: none;
+  }
+  .final{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .felicitari{
+    height: 150px;
+  }
+  .imagine-1, .imagine-2{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imagine-1 img, .imagine-2 img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .text{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+  }
+}

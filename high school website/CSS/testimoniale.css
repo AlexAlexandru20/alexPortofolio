@@ -1,0 +1,155 @@
+/*elev page*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.back-arrow{
+    width: 40px;
+    display: flex;
+    flex: left;
+    margin: 20px 0 0 10px;
+}
+.back-arrow:hover{
+    margin-left: 2px;
+    transition: 400ms;
+}
+.test-title{
+    font-family: 'Comic Sans MS';
+    font-size: 35px;
+    padding: 10px 0 50px;
+    text-align: center;
+}
+.container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    padding: 50px 0 10px;
+    overflow: hidden;
+    border: 3px solid grey;
+    border-radius: 20px;
+}
+.slide{
+    transition: ease-in-out;
+}
+.title-test{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 0 30px;
+    text-indent: 50px;
+}
+.content1{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    text-indent: 30px;
+    word-spacing: 5px;
+    line-height: 1.8;
+    text-align: justify;
+}
+ul{
+    list-style-type: none;
+    text-align: left;
+    padding: 20px 0 10px 10%;
+}
+ul li{
+    display: block;
+    padding: 6px;
+    font-size: 18px;
+}
+.nume{
+    float: right;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 20px 10% 10px 0;
+    margin-bottom: 20px;
+}
+.swiper-button-next:hover, .swiper-button-prev:hover{
+    color: black;
+}
+.quote-box{
+    color: blue;
+    font-size: 30px;
+    margin: 20px 48% 20px 48%;
+}
+/*container special */
+.container-special{
+    width: 99%;
+    height: 90px;
+    background-color: rgb(207, 205, 205);
+    border: 2px solid black;
+    margin: 10px 0.5%;
+    border-radius: 5px;
+}
+.container-special .content1{
+    display: flex;
+    flex: 0 0 50%;
+    box-sizing: border-box;
+}
+.content1 .titlu{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media screen and (max-width: 810px) {
+    *{
+        font-size: smaller;
+    }
+    .content1{
+        width: 80%;
+        font-size: 14px;
+    }
+    .testimonial{
+        border: none;
+    }
+    .back-arrow{
+        width: 20px;
+        height: 20px;
+        margin: 7px;
+    }
+    .test-title{
+        font-size: 18px;
+        padding: 0 0 10px;
+    }
+    ul{
+        padding: 0 5%;
+    }
+    ul li{
+        display: block;
+        padding: 3px;
+        font-size: 14px;
+    }
+    .title-test{
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 0 0 30px;
+        text-indent: 30px;
+    }
+    .nume{
+        float: right;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 20px 10% 10px 0;
+        margin-bottom: 20px;
+    }
+    .nume-lung{
+        padding: 20px 0 10px 30%;
+    }
+    .container-special{
+        display: none;
+    }
+}
