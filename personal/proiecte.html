@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"              content="IE=edge">
+    <meta http-equiv="content-type" 				content="text/html;">
+    <meta name="viewport"                           content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" 							content="web-design, web development, create sites, develop websites">
+	<meta name="author" 							content="Alexandru Popica">
+    <title>Proiecte</title>
+    <link rel="stylesheet" href="css/infopage.css">
+    <link rel="stylesheet" href="css/proiecte.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+    </style>
+</head>
+<script src="js/body-transition.js"></script>
+<script>
+    function openNav() {
+        var navOpen = document.getElementById("nav-open");
+
+        if (navOpen.style.display === "block") {
+            navOpen.style.display = "none";
+        } else {
+            navOpen.style.display = "block";
+        }
+    }
+    function toggleNav() {
+        var menuIcon = document.getElementById("menu-image");
+        var newMenuIcon = document.getElementById("new-menu-image");
+
+        if (menuIcon.classList.contains("hidden")) {
+            menuIcon.classList.remove("hidden");
+            newMenuIcon.classList.add("hidden");
+        } else {
+            menuIcon.classList.add("hidden");
+            newMenuIcon.classList.remove("hidden");
+        }
+    }
+</script>
+<body class="page-transition">
+    <div class="header">
+        <div class="first-title">
+            <div class="square-name">
+                <span class="square"></span>
+                <div class="name">Alexandru Popica</div>
+            </div>
+            <div class="job">Frontend Developer</div>
+        </div>
+        <div class="right-place">
+            <div class="menu-icon">
+                <img id="menu-image" src="image/vecteezy_menu-icon-style_6095854.jpg" alt="Menu" onclick="openNav(); toggleNav()">
+                <img id="new-menu-image" src="image/vecteezy_x-png-transparent-background_20048793_580.png" alt="Menu" class="hidden" onclick="openNav(); toggleNav()">
+            </div>
+            <nav id="nav-open">
+                <ul id="ul-nav">
+                    <li>
+                        <a href="index.html">Informații personale</a>
+                    </li>
+                    <li>
+                        <a href="cv.html">CV</a>
+                    </li>
+                    <li>
+                        <a href="#" class="activ">Proiecte</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contactați-mă</a>
+                    </li>
+                    <li>
+                        <div class="lang">
+                            <div class="drop-btn">&#9660</div>
+                            <div class="drop-content">
+                                <a href="#">RO <img src="image/vecteezy_romania-flag-waves-with-realistic-bump-texture-flag_21300072_727.jpg" alt="Romanian Flag"></a>
+                                <a href="projects.html">EN <img src="image/vecteezy_united-kingdom-flag-waves-with-realistic-bump-texture-flag_21300351_620.jpg" alt="UK Flag"></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="middle-box">
+        <div class="titlu">
+            <span class="square"></span>
+            <div class="text-titlu">Proiecte</div>
+        </div>
+        <div class="describe">
+            <p>Prin proiectele mele, inclusiv site-ul liceului, pagina de intranet, pagina personală și pagina viitoarei mele firme, am demonstrat dorința mea de a învăța și de a oferi rezultate remarcabile.</p>
+            <p>În calitate de începător, sunt dedicat creșterii și obținerii unor rezultate excelente.</p>
+        </div>
+        <div class="content-box">
+            <div class="box">
+                <div class="left">
+                    <div class="year">Site-ul Liceului</div>
+                    <div class="content">
+                        <a href="https://liceultehnologicconstantinbrancusi.eu" target="_blank">
+                            <img src="image/lic.jpg" alt="LTCB">
+                            <div class="overlay">
+                                <div class="over-text">Click Me</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="right">
+                    <p>Prin crearea site-ului liceului, am dezvoltat o platformă inovatoare, fără a utiliza template-uri predefinite, ci codând de la zero folosind HTML, CSS, JavaScript și PHP.</p>
+                    <p>Am integrat tehnici de ultimă generație, permițând funcționalități avansate, cum ar fi trimiterea automată a email-urilor către adresa școlii și confirmarea primită pe adresa expeditorului.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <div class="year">Platforma de Intranet</div>
+                    <div class="content">
+                        <a href="https://intranet.liceultehnologicconstantinbrancusi.eu/login.html" target="_blank">
+                            <img src="image/intranet.jpg" alt="Intranet">
+                            <div class="overlay">
+                                <div class="over-text">Click Me</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="right">
+                    <p>Prin dezvoltarea platformei de intranet, am creat o soluție robustă pentru comunicarea internă și gestionarea datelor. Am utilizat HTML, CSS, JavaScript, PHP și baze de date SQL.</p>
+                    <p>Accesul la platformă se realizează prin autentificare cu utilizator și parolă, iar utilizatorii au posibilitatea de a-și schimba parolele. Am asigurat securitatea și funcționalitatea sistemului, facilitând colaborarea și gestionarea eficientă a informațiilor în cadrul organizației.</p>
+                </div>
+            </div>
+            <div class="box" style="margin-bottom: 20dvh">
+                <div class="left">
+                    <div class="year">Administrator de Sistem</div>
+                    <div class="content">
+                        <img src="image/admin.webp" alt="Admin">
+                    </div>
+                </div>
+                <div class="right">
+                    <p>Ca administrator de sistem, am jucat un rol vital în gestionarea și configurarea serverelor și mașinilor virtuale pentru a asigura funcționarea optimă a infrastructurii IT. </p>
+                    <p>Am conceput și implementat rețeaua de internet a locului de muncă, asigurând conectivitatea și securitatea. De asemenea, am administrat și configurat website-ul companiei</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footage">
+        <div class="copy">
+            <div class="text-copy"><img src="image/copyright_beware.svg" alt="Copyright"> 2023 by Digital Cyber</div>
+        </div>
+        <div class="detail">
+            <div class="about">
+                <div class="column">
+                    <div class="phone">
+                        <div class="title">Apelează-mă</div>
+                        <div class="number">
+                            <a href="tel:+40759456530">0759456530</a>
+                        </div>
+                    </div>
+                    <div class="mail">
+                        <div class="title">Scrie-mi</div>
+                        <div class="email">
+                            <a href="mailto:alexandrupopica18@gmail.com">alexandrupopica18@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-media">
+                    <div class="title">Urmărește-mă</div>
+                    <div class="link-media">
+                        <div class="site-enterprise">
+                            <a href="#">
+                                <img src="image/icon0-vector-441-01.jpg" alt="Web">
+                            </a>
+                        </div>
+                        <div class="linkedin">
+                            <a href="#">
+                                <img src="image/vecteezy_blue-color-white-background-linkedin-design-logo-sign-symbol_9097186.jpg" alt="LinkedIn">
+                            </a>
+                        </div>
+                        <div class="ig">
+                            <a href="#">
+                                <img src="image/vecteezy_instagram-mobile-app-logo-instagram-app-icon-ig-app-free_18910689.jpg" alt="Instagram">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
