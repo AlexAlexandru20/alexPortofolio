@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 450 260" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <filter id="k" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="l" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="b" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="SourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="SourceGraphic" operator="in"/>
+  </filter>
+  <filter id="m" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="o" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="p" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="n" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="j" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="c" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="SourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="SourceGraphic" operator="in"/>
+  </filter>
+  <filter id="d" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="i" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="e" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="g" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="h" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="f" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="q" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="aa" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="ab" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="r" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="ac" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="ae" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="af" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="ad" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="z" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="s" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="t" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="y" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="u" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="w" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="x" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="v" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result6" stdDeviation="1.5"/>
+   <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+   <feComposite in="result8" in2="SourceAlpha" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feGaussianBlur in="fbSourceGraphic" result="result3" stdDeviation="5"/>
+   <feComposite in="result3" in2="result3" k1="0.5" k3="0.5" operator="arithmetic" result="result1"/>
+   <feBlend in="fbSourceGraphic" in2="result1" mode="screen" result="result5"/>
+   <feBlend in="result5" in2="result5" mode="darken" result="result6"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+ </defs>
+ <g transform="translate(0 -792.36)">
+  <g transform="translate(177.63 447.07)">
+   <g stroke-width="0">
+    <g stroke="#000">
+     <path d="m-149.27 519.46-1.4927-74.636c115.84 12.625 244.12 10.829 371.68 0l-2.9854 73.143c-120.93 9.3572-242.35 15.702-367.21 1.4927z" fill="#b4e2ff" filter="url(#af)"/>
+     <path d="m-174.65 550.81 153.75 9.7026 24.63-15.674 61.201-2.2391 20.152 14.181 159.72-6.7172-28.362-33.586c-122.54 7.2626-245.52 17.246-364.22 1.4927l-26.869 32.84z" fill="#9cf" filter="url(#ae)"/>
+     <path d="m-173.15 431.39c38.256-24.381 70.711-48.762 97.026-73.143 87.651 0.93846 148.88 0.19334 232.12-2.2391 34.803 25.829 57.791 53.096 100.76 70.904-144.89 12.599-288.96 19.514-429.9 4.4781z" fill="#f30" filter="url(#ad)"/>
+     <path d="m-174.65 431.39 1.4927 11.942c148.01 21.055 291.34 18.723 431.39 0l-4.4781-16.42c-139.24 13.951-281.22 18.328-428.41 4.4781z" fill="#06c" filter="url(#ac)"/>
+     <path d="m-165.69 441.84 2.9854 98.519 26.869 1.4927 2.9854-100.01h-32.84z" fill="#3e9ade" filter="url(#ab)"/>
+     <path d="m-135.84 440.35v101.5s13.434-7.4636 13.434-13.434c0-5.9708 1.4927-85.084 1.4927-85.084l-14.927-2.9854z" fill="#06c" filter="url(#aa)"/>
+     <g fill="#3e9ade">
+      <path d="m-50.752 447.81 2.9854 100.01h26.869l2.9854-100.01h-32.84z" filter="url(#z)"/>
+      <path d="m-20.898 446.32v101.5s13.434-7.4636 13.434-13.434c0-5.9708 1.4927-85.084 1.4927-85.084l-14.927-2.9854z" filter="url(#y)"/>
+      <path d="m234.36 443.34-2.9854 98.519-26.869 1.4927-2.9854-100.01h32.84z" filter="url(#x)"/>
+      <path d="m204.5 441.84v101.5s-13.434-7.4636-13.434-13.434c0-5.9708-1.4927-85.084-1.4927-85.084l14.927-2.9854z" filter="url(#w)"/>
+      <path d="m119.42 449.31-2.9854 100.01h-26.869l-2.9854-100.01h32.84z" filter="url(#v)"/>
+      <path d="m89.563 447.81v101.5s-13.434-7.4636-13.434-13.434c0-5.9708-1.4927-85.084-1.4927-85.084l14.927-2.9854z" filter="url(#u)"/>
+     </g>
+     <path transform="matrix(1 0 0 .74187 0 140.25)" d="m-177.63 552.3 4.4781 31.347c145.97 11.583 283.9 9.7546 417.96 1.4927l1.4927-35.079-158.97 4.4781-20.152-11.195-65.679 1.4927-20.898 14.927-158.23-7.4636z" fill="#0083d7" filter="url(#t)"/>
+    </g>
+    <path d="m5.9708 546.33 60.455-2.2391-0.7464 15.674h-59.708v-13.434z" fill="#9cf" fill-rule="evenodd" filter="url(#s)" stroke="#ca4141" stroke-linecap="round" stroke-linejoin="round"/>
+    <g stroke="#000">
+     <g fill="#3e9ade">
+      <path d="m2.2391 544.09-20.898 15.674 1.4927 15.674 23.137-14.927-3.7318-16.42z" filter="url(#r)"/>
+      <path d="m67.918 544.09-2.2391 15.674 18.659 15.674-0.7464-18.659-15.674-12.688z" filter="url(#q)"/>
+     </g>
+     <path d="m7.4636 559.77-22.391 16.42 100.01 1.4927-18.659-17.912h-58.962z" fill="#9cf" filter="url(#p)"/>
+    </g>
+    <g fill-rule="evenodd" stroke="#ca4141" stroke-linecap="round" stroke-linejoin="round">
+     <path d="m-109.88 472.31c13.794 1.2455 27.588 0.71305 41.382 0v32.368c-13.794 2.0243-27.588 0.24543-41.382 0v-32.368z" fill="#900" filter="url(#o)"/>
+     <g fill="#c90">
+      <rect x="-105.78" y="476.81" width="14.34" height="23.354" filter="url(#n)"/>
+      <rect x="-87.346" y="477.63" width="13.111" height="22.125" filter="url(#m)"/>
+     </g>
+     <rect x="134.92" y="474.55" width="41.382" height="32.368" fill="#900" filter="url(#l)"/>
+     <g fill="#fc0">
+      <rect x="139.02" y="479.05" width="14.34" height="23.354" filter="url(#k)"/>
+      <rect x="157.46" y="479.87" width="13.111" height="22.125" filter="url(#j)"/>
+     </g>
+     <rect x="22.151" y="470.39" width="31.08" height="54.642" fill="#900" filter="url(#i)"/>
+     <rect x="26.059" y="474.59" width="23.006" height="46.244" fill="#fc0" filter="url(#h)"/>
+     <g fill="#960">
+      <rect transform="matrix(2.0476 0 0 1.0072 18.843 -2.9687)" x="-25.376" y="388.85" width="6.7172" height="50.006" filter="url(#g)"/>
+      <rect transform="matrix(2.0476 0 0 1 -96.326 0)" x="92.624" y="388.85" width="6.7172" height="50.006" filter="url(#f)"/>
+     </g>
+    </g>
+    <g stroke="#000">
+     <path transform="matrix(1 0 0 1.2143 0 -87.117)" d="m-26.25 432.86-21.491-17.894c43.818-37.627 123.7-36.908 168.62 0l-19.838 20.876c-10.545-12.111-79.976-48.045-127.3-2.9823z" fill="#deffff" filter="url(#e)"/>
+     <path d="m-14.181 577.68 97.026-2.2391-97.026 2.2391z" fill="#b4e2ff" filter="url(#d)"/>
+    </g>
+   </g>
+   <g font-family="Arial Black" font-size="24px" line-height="125%">
+    <text fill="#336" filter="url(#b)">
+     <textPath xlink:href="#a">
+      <tspan>SCHOOL</tspan>
+     </textPath>
+    </text>
+    <path id="a" d="m-19.518 418.95c59.762-22.982 86.726-8.9353 118.74-0.58515" fill-opacity="0" filter="url(#c)" stroke-width="0"/>
+   </g>
+  </g>
+ </g>
+</svg>
