@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+    <meta name="viewport"               content="width=device-width, initial-scale=1.0">
+    <meta name="author"                 content="Alexandru Popica & Loredana Motoașcă">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/video.css">
+</head>
+<body>
+    <video id="video1">
+        <source src="video/video1.mp4" type="video/mp4">
+    </video>
+    <button onclick="PlayPause()">Play/Pause</button>
+    <script>
+        var Myvideo = document.getElementById("video1");
+        function PlayPause(){
+            if(Myvideo.paused)
+            Myvideo.play();
+            else
+            Myvideo.pause();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" 							content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" 							content="brancusi, liceu sfantu gheorghe, liceu sf, liceu tehnologic, istorie brancusi, istorie constantin brancusi">
+	<meta http-equiv="content-type" 				content="text/html; charset=utf-8">
+	<meta name="author" 							content="Alexandru Popica & Loredana Motoașcă">
+	<title>Despre noi</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="picture/school.svg">
+</head>
+<body>
+	<div class="header resp">
+		<div class="heade-title">
+			<div class="liceu">
+				Constantin Brâncuși High School<br>
+			</div>
+			<div class="lang">
+				<a href="history.html" class="ro">
+					<img src="picture/flag_ro.jpg" class="ro_flag" alt="Steagul României">
+				</a>
+				<a href="#" class="en">
+					<img src="picture/en_flag.png" class="en_flag" alt="UK Flag">
+				</a>
+			</div>
+		</div>
+		<div class="menu">
+			<ul>
+				<li>
+                    <div class="cell try">
+					    <a href="index.html" class="a" id="try">Home</a>
+                    </div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<button class="dropbtn cell try1"><a href="#" class="activ a">About Us <img src="picture/down.png" class="arrow"></a></button>
+						<div class="dropdown-content try1">
+							<a href="history.html" class="drop">History</a>
+							<a href="mission.html" class="drop">Mission & Vision</a>
+						</div>
+					</div>
+				</li>
+				<li>	
+					<div class="dropdown1">
+						<button class="dropbtn1 cell try2"><a href="#" class="a">School Resources <img src="picture/down.png" class="arrow"></a></button>
+						<div class="dropdown-content1 try2">
+							<a href="pdf/org.pdf" class="drop1" target="_blank">Organizational Chart</a>
+							<a href="pdf/plan.pdf" class="drop1" target="_blank">Action Plan</a>
+							<a href="pdf/pers.pdf" class="drop1" target="_blank">School Stuff</a>
+							<a href="pdf/reg.pdf" class="drop1" target="_blank">Rules</a>
+							<a href="clase.html" class="drop1">Class Pictures</a>
+						</div>
+					</div>
+				</li>
+				<li>	
+					<div class="dropdown2">
+						<button class="dropbtn2 cell try3"><a href="#" class="a">Activities <img src="picture/down.png" class="arrow"></a></button>
+						<div class="dropdown-content2 try3">
+							<a href="part.html" class="drop2">Partenerships</a>
+							<a href="library.html" class="drop2">School Magazines</a>
+							<a href="competition.html" class="drop2">Student Results</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown3 ">
+						<button class="dropbtn3 cell try4"><a href="#" class="a">Projects <img src="picture/down.png" class="arrow"></a></button>
+						<div class="dropdown-content3 try4">
+							<a href="projects.html" class="drop3">ROSE</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown5">
+						<button class="dropbtn5 cell try5"><a href="#" class="a">Commisions <img src="picture/down.png" class="arrow"></a></button>
+						<div class="dropdown-content5 try5">
+							<a href="ceac.html" class="drop5">CEAC</a>
+							<a href="ca.html" class="drop5">CA</a>
+						</div>
+					</div>
+				</li>
+				<li class="responsive2">
+					<div class="cell news">
+						<a href="news.html" class="a" id="try">News</a>
+					</div>
+				</li>
+				<li class="responsive2">
+					<div class=" contact_cell">
+						<a href="contact.html" class="a" id="try">Contact</a>
+					</div>
+				</li>
+				<!--responsive navbar-->
+				<li class="responsive1">
+					<div class="dropdown6">
+						<button class="dropbtn6 cell try6"><img src="picture/Arrow-nav.svg" class="arrow-navbar"></button>
+						<div class="dropdown-content6 try6">
+							<a href="news.html" class="drop6">News</a>
+							<a href="contact.html" class="drop6">Contact</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!--Responsive menu for tablet and mobile-->
+	<div class="menu-responsive">
+		<div class="header1">
+			<div class="heade-title1">
+				<div class="liceu1">
+					Constantin Brâncuși High School<br>
+				</div>
+				<div class="lang1">
+					<a href="#" class="ro">RO</a>
+					<a href="home-en.html" class="en">EN</a>
+				</div>
+			</div>
+			<div class="nav_bar">
+				<div class="dropdown">
+					<button class="dropbtn"><a href="#" class="a activ">About Us <img src="picture/down.png" class="arrow1"></a></button>
+					<div class="dropdown-content">
+						<a href="history.html">History</a>
+						<a href="mission.html">Mission & Vision</a>
+					</div>
+				</div>
+				<div class="open" onclick="openNav()">
+					<img src="picture/Arrow-nav.svg" class="arrow-navbar">
+				</div>
+			</div>
+		</div>
+		<script>
+			function openNav(){
+				document.getElementById("Nav").style.width = "100%";
+			}
+			function closeNav(){
+				document.getElementById("Nav").style.width = "0%";
+			}
+		</script>
+		<div class="drop-res">
+			<div id="Nav" class="overlay">
+				<a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+				<div class="overlay-content">
+					<div class="dropdown1_1">
+						<button class="dropbtn1_1"><a href="index.html" class="link-about">Acasă</a></button>
+					</div>
+					<div class="dropdown1_2">
+						<button class="dropbtn1_2"><a href="#" class="link-about">Our Resources <img src="picture/down.png" class="arrow"></a></button>
+						<div class="dropdown-content1_2">
+							<a href="pdf/org.pdf" target="_blank">Organizational Chart</a>
+							<a href="pdf/plan.pdf" target="_blank">Action Plan</a>
+							<a href="pdf/pers.pdf" target="_blank">School Staff</a>
+							<a href="pdf/reg.pdf" target="_blank">Rules</a>
+							<a href="clase.html">Class Pictures</a>
+						</div>
+					</div>
+					<div class="dropdown1_3">
+						<button class="dropbtn1_3"><a href="#" class="link-about">Activities <img src="picture/down.png" class="arrow"></a></button>
+						<div class="dropdown-content1_3">
+							<a href="part.html">Partenerships</a>
+							<a href="library.html">School Magazines</a>
+							<a href="competition.html">Student Results</a>
+						</div>
+					</div>
+					<div class="dropdown1_4 ">
+						<button class="dropbtn1_4"><a href="#" class="a">Projects <img src="picture/down.png" class="arrow"></a></button>
+						<div class="dropdown-content1_4">
+							<a href="projects.html">ROSE</a>
+						</div>
+					</div>
+					<div class="dropdown1_5">
+						<button class="dropbtn1_5"><a href="#" class="a">Commisions <img src="picture/down.png" class="arrow"></a></button>
+						<div class="dropdown-content1_5">
+							<a href="ceac.html">CEAC</a>
+							<a href="ca.html">CA</a>
+						</div>
+					</div>
+					<div class="dropdown1_6">
+						<button class="dropbtn1_6"><a href="news.html">News</a></button>
+					</div>
+					<div class="dropdown1_7">
+						<button class="dropbtn1_7"><a href="contact.html">Contact</a></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="history">
+		<div class="title">
+			Few Words:
+		</div>
+		<div class="h-content">
+			<p class="txt1">Constantin Brâncuși high school was born in 01.10.1949, through a Government Decision.</p>
+			<p class="txt2">As an educational unit of the cooperative, prepared students for high school, vocational, apprentice and post-secondary school.</p>
+			<p class="txt3">Starting with 1978 year, the current profile of the school is taking shape. În toți acei ani, planul de școlarizare a fost elaborat în concordanță cu necesitățiile de pe piața muncii.</p>
+			<p class="txt4">Până în anul 1997, școala a funcționat pe baza unor protocoale încheiate între Inspectoratul Școlar Județean, Centrocoop București și Ministerul Educației Naționale.</p>
+			<p class="txt5">Începând cu data de 28.02.2003, școala s-a numit Grupul Școlar "Constantin Brâncuși".</p>
+		</div>
+	</div>
+</body>
+</html>

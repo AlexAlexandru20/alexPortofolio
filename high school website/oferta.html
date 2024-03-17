@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" 							content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" 							content="brancusi, liceu sfantu gheorghe, liceu sf, liceu tehnologic, liceul tehnologic constantin brancusi, constantin brancusi, scoala profesionala, grup scolar, grup scolar constantin brancusi, scoala bucatari, scoala ospatari, scoala cofetari, scoala frizeri">
+	<meta http-equiv="content-type" 				content="text/html;">
+	<meta name="author" 							content="Alexandru Popica & Loredana Motoașcă">
+	<title>Liceul Tehnologic "Constantin Brâncuși"</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="CSS/testimoniale.css">
+	<link rel="shortcut icon" href="picture/school.svg">
+</head>
+<body>
+	<div class="back-arrow">
+        <a href="index.html">
+            <img src="picture/back.png" alt="back arrow" class="back-arrow">
+        </a>
+    </div>
+	<div class="test-title">Oferta Educațională</div>
+	<div class="image1">
+		<img src="picture/oferta/oferta.jpg" alt="Oferta Educationala" id="openIG">
+		<div id="overlay-scoala">
+			<img id="overlayImage" />
+		</div>
+	</div>
+	<div class="scoala">
+		<div class="prof">
+			<div class="titlu-scoala">Liceu</div>
+			<div class="image2">
+				<img src="picture/oferta/liceu.png" alt="Liceu" class="openIG">
+				<div class="overlay-scoala">
+					<img class="overlayImage" />
+				</div>
+			</div>
+		</div>
+		<div class="prof">
+			<div class="titlu-scoala">Învățământ Profesional</div>
+			<div class="image2">
+				<img src="picture/oferta/prof.png" alt="Profesionala" class="openIG">
+				<div class="overlay-scoala">
+					<img class="overlayImage" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		var overlay = document.getElementById('overlay-scoala');
+		var overlayImage = document.getElementById('overlayImage');
+		var image = document.getElementById('openIG');
+
+		image.addEventListener('click', function(){
+			overlayImage.src = this.src;
+			overlay.style.display = 'flex';
+		});
+		overlay.addEventListener('click', function(){
+			overlay.style.display = 'none';
+		});
+	</script>
+</body>
+</html>
